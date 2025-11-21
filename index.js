@@ -1,3 +1,6 @@
+// Load environment variables from .env file (for development and as fallback)
+require('dotenv').config();
+
 const express = require('express');
 const cookieParser = require('cookie-parser');
 const path = require('path');
