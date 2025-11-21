@@ -6,7 +6,8 @@
   "scripts": {
     "start": "node index.js",
     "dev": "nodemon index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "install-legacy": "npm install --legacy-peer-deps"
   },
   "keywords": ["firebase", "auth", "financial"],
   "author": "",
@@ -30,7 +31,7 @@
     "express": "^5.1.0",
     "firebase-admin": "^12.7.0",
     "multer": "^2.0.2",
-    "openai": "^5.21.0",
+    "openai": "^4.62.1",
     "pdf-parse": "^1.1.1",
     "tailwindcss": "^4.1.11"
   },
